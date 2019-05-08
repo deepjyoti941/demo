@@ -30,6 +30,7 @@ public class MessageController {
     private final String key = "testKey";
 
 
+    @CrossOrigin("*")
     @PostMapping(produces = "application/json", consumes = "application/json")
     public Map<String, String> save(@RequestBody Message message) throws JsonProcessingException {
 
@@ -41,6 +42,7 @@ public class MessageController {
         return map;
     }
 
+    @CrossOrigin("*")
     @GetMapping(produces = "application/json")
     public Message get() throws IOException {
 
