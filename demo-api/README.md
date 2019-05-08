@@ -16,4 +16,4 @@
 
 
 
-    java -jar target/demo
+    java -jar target/demo-api-0.0.1-SNAPSHOT.jar
