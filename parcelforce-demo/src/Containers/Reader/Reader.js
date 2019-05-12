@@ -46,7 +46,7 @@ class Reader extends Component {
           autoPlay={true}
           poster="/assets/poster.png"
           src="http://52.32.34.54:8081/0wrIRgCm.mp4"
-          />: <Spinner />
+          />: null
         }
 
         </div>
